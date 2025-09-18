@@ -1,6 +1,6 @@
 
 import React from 'react';
-const title = `Elevating brands through inspired design`
+const title = `Designing with purpose to elevate your brand identity`;
 
 const MarqueeAreaHomeThree = () => {
   return (

@@ -13,7 +13,7 @@ type DataType = {
 const hero_data: DataType = {
   title_1: `Creative`,
   title_2: `Design Studio`,
-  des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools.`,
+  des: `At our digital agency, we’re passionate about helping businesses grow and thrive in the online world. From creating sleek, responsive websites to implementing powerful digital marketing and advertising strategies, we provide everything you need to build a strong online presence and connect with your audience effectively.`,
   links: [{ title: "Facebook" }, { title: "Behance" }, { title: "Dribbble" }],
 };
 const { title_1, title_2, des, links } = hero_data;

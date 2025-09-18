@@ -13,7 +13,7 @@ const team_content: DataType = {
   sub_title: "Our Team",
   title: "Excellence Team That Can Digitalize Your Brand",
 
-  title_2: " Meet the Professionals Behind Your Digital Success",
+  title_2: " Passionate People, Powerful Solutions",
 };
 const { sub_title, title, title_2 } = team_content;
 

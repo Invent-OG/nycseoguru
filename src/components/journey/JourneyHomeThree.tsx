@@ -14,20 +14,29 @@ const JourneyHomeThree = () => {
         <div className="container">
           <div className="cs_journey_stary">
             <div className="anim_div_ShowZoom">
-              <h6>Our Journey Story</h6>
+              <h6>Our Creative Journey</h6>
             </div>
 
             <div className="cs_height_50"></div>
 
             <h2 className="cs_line_height_85 anim_text">
-              Welcome to
-              <span><Image src={journey_img_1} alt="Journey_story_1" /></span> our design
-              studio! We create visually stunning designs
-              <span><Image src={journey_img_2} alt="Journey_story_2" /></span> for print,
-              digital
-              <span><Image src={journey_img_3} alt="Journey_story_3" /></span> ndenvironmental
-              mediums. Let's bring your vision to
-              <span><Image src={journey_img_4} alt="Journey_story_4" /></span> life together
+              Step into
+              <span>
+                <Image src={journey_img_1} alt="Journey_story_1" />
+              </span>{" "}
+              our creative studio, where ideas turn into
+              <span>
+                <Image src={journey_img_2} alt="Journey_story_2" />
+              </span>{" "}
+              powerful visuals for web,
+              <span>
+                <Image src={journey_img_3} alt="Journey_story_3" />
+              </span>{" "}
+              branding, and marketing. Together, let’s shape
+              <span>
+                <Image src={journey_img_4} alt="Journey_story_4" />
+              </span>{" "}
+              designs that inspire and leave a lasting impact.
             </h2>
           </div>
         </div>
