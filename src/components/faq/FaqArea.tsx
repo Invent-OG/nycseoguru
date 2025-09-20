@@ -11,35 +11,36 @@ interface DataType {
 const faq_data: DataType[] = [
   {
     id: "One",
-    question: `What is the design process for branding?`,
-    ans: `Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying conse quences lalin karar or one avoids a pain that produces no resultant pleasure.`
+    question: `What makes your branding process unique?`,
+    ans: `Our branding process is not just about creating a logo or choosing colors—it’s about building a story and identity that truly connects with your target audience. We begin with an in-depth research phase, analyzing your industry trends, competitors, and customer expectations. From there, we craft a brand strategy that outlines your positioning, voice, and values. Once the foundation is clear, we design a visual identity system, messaging framework, and brand guidelines that ensure consistency across print, digital, and social platforms. This structured yet flexible approach helps your brand stand out while staying adaptable as your business grows.`,
   },
   {
     id: "Two",
-    question: `What services does your agency offer?`,
-    ans: `Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying conse quences lalin karar or one avoids a pain that produces no resultant pleasure.`
+    question: `What services does your creative agency provide?`,
+    ans: `We provide end-to-end creative solutions designed to support businesses of all sizes. Our services include brand strategy and identity design, website design and development, user experience (UX/UI) design, social media content creation, and digital marketing campaigns. Beyond design, we also offer video production, photography, copywriting, and content marketing services to help your brand communicate effectively. By combining strategy, design, and technology, we ensure that every project we deliver is not only visually appealing but also results-driven and tailored to achieve measurable outcomes.`,
   },
   {
     id: "Three",
-    question: `How do you approach a new project?`,
-    ans: `Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying conse quences lalin karar or one avoids a pain that produces no resultant pleasure.`
+    question: `How do you kick off a new project with a client?`,
+    ans: `We believe that the success of any project lies in a strong foundation of understanding. When starting a new project, we begin with a discovery phase where we learn about your goals, challenges, and expectations. This includes stakeholder interviews, market research, and a thorough review of your existing materials. Once we’ve gathered insights, we create a project roadmap that outlines deliverables, milestones, and timelines. This roadmap becomes our guiding document, ensuring transparency and alignment from day one. Throughout the process, we maintain open communication, encouraging collaboration and feedback at every stage.`,
   },
   {
     id: "Four",
-    question: `How do you handle revisions or changes to a project?`,
-    ans: `Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying conse quences lalin karar or one avoids a pain that produces no resultant pleasure.`
+    question: `What is your process for handling client revisions?`,
+    ans: `We see revisions as an important part of the creative journey. Our process allows for multiple structured feedback rounds, ensuring that your voice is heard while we maintain the integrity of the design. In each round, we review your feedback carefully, suggest professional alternatives if needed, and apply updates in a way that balances creativity with functionality. We use collaborative tools to track changes, maintain version history, and keep communication transparent. This structured yet flexible process ensures that revisions are smooth, efficient, and ultimately lead to a result you are 100% satisfied with.`,
   },
   {
     id: "Five",
-    question: `How do you determine pricing for your services?`,
-    ans: `Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying conse quences lalin karar or one avoids a pain that produces no resultant pleasure.`
+    question: `How do you decide the pricing for each project?`,
+    ans: `Our pricing is determined based on the unique requirements of each project. Factors such as scope of work, complexity, design style, content needs, and timelines all influence the final cost. We don’t believe in one-size-fits-all pricing, so we prepare customized quotes after discussing your objectives in detail. We also provide clear breakdowns so you know exactly what you’re paying for—whether it’s strategy, design, development, or post-launch support. Our goal is to deliver maximum value within your budget, ensuring that you get a strong return on investment and long-term benefits from our work.`,
   },
   {
     id: "Six",
-    question: `Do you offer any long-term support or maintenance for your projects?`,
-    ans: `Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying conse quences lalin karar or one avoids a pain that produces no resultant pleasure.`
+    question: `Do you provide ongoing support after project delivery?`,
+    ans: `Yes, we provide comprehensive post-launch support to ensure your project continues to perform effectively. For branding, this includes updating guidelines, refreshing creative materials, and consulting on new campaigns. For websites and digital platforms, we offer maintenance packages that cover security updates, performance optimization, bug fixes, and content updates. We also provide analytics reporting to help you measure success and adapt strategies as needed. Whether you need short-term assistance or a long-term partnership, we remain a trusted extension of your team, helping your brand stay relevant and impactful.`,
   },
-]
+];
+
 
 const FaqArea = () => {
 

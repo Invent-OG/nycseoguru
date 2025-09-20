@@ -16,28 +16,29 @@ const service_data: DataType[] = [
   {
     id: 1,
     count: 99,
-    title: `Research & Analyze`,
-    des: `Welcome to our digital agency We specialize in helping your business most`
+    title: `Market Research`,
+    des: `We conduct in-depth research to understand your audience, competitors, and industry trends, ensuring data-driven strategies for growth.`,
   },
   {
     id: 2,
     count: 85,
-    title: `Wireframing`,
-    des: `Welcome to our digital agency We specialize in helping your business most`
+    title: `Prototyping`,
+    des: `Our team builds interactive prototypes that bring ideas to life, helping you visualize user journeys before final development.`,
   },
   {
     id: 3,
     count: 80,
-    title: `UI Design`,
-    des: `Welcome to our digital agency We specialize in helping your business most`
+    title: `Visual Design`,
+    des: `We craft engaging and modern user interfaces that combine creativity with functionality to deliver seamless digital experiences.`,
   },
   {
     id: 4,
     count: 99,
-    title: `Problem Solving`,
-    des: `Welcome to our digital agency We specialize in helping your business most`
+    title: `Creative Solutions`,
+    des: `From strategy to execution, we provide innovative solutions that solve complex problems and empower your business to succeed.`,
   },
-]
+];
+
 
 const ServiceTeam = () => {
   return (

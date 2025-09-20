@@ -1,7 +1,6 @@
-
-import React from 'react';
+import React from "react";
 import avatar_img_1 from "@/assets/img/team_detalils.jpg";
-import Image from 'next/image';
+import Image from "next/image";
 
 interface DataType {
   des: string;
@@ -12,28 +11,28 @@ interface DataType {
 }
 
 const team_content: DataType = {
-  des: `Digital there are many variations of passages of Lorem Ipsum available, but the majority have suffered alter in some form, by injected humour, or randomised words. is a long established fact that a reader will be distrac by the readable content of a page when looking at its layout. The point of using Lorem Ipm i has a more-ornormal.`,
+  des: `Digital platforms offer countless ways to share information, but not all content maintains its original intent. Many messages lose impact when altered with unnecessary elements, distractions, or random wording. It is a well-known fact that readers can easily lose focus if the content doesn’t align with the design and purpose of the page.`,
   info: [
     {
       title: `Address:`,
-      des: `2118 Thornridge Cir, 35624`
+      des: `2118 Thornridge Cir, 35624`,
     },
     {
       title: `Email:`,
-      des: `example@example.com`
+      des: `example@example.com`,
     },
     {
       title: `Phone:`,
-      des: `+7 (903) 679-96-15`
+      des: `+7 (903) 679-96-15`,
     },
     {
       title: `website:`,
-      des: `www.website.com`
+      des: `www.website.com`,
     },
-  ]
-}
+  ],
+};
 
-const { des, info } = team_content
+const { des, info } = team_content;
 
 const TeamDetailsArea = () => {
   return (
@@ -65,21 +64,38 @@ const TeamDetailsArea = () => {
                 <p>{des}</p>
                 <div className="cs_height_50 cs_height_lg_50"></div>
 
-                {info.map((item, i) =>
+                {info.map((item, i) => (
                   <div key={i} className="d-flex">
                     <p className="col-md-2 col-4 cs_medium cs_primary_color">
                       {item.title}
                     </p>
                     <p className="col-md-4 col-10">{item.des}</p>
                   </div>
-                )}
-
+                ))}
               </div>
               <div className="cs_height_50 cs_height_lg_50"></div>
               <div className="cs_btn cs_style_2">
-                <a target='_blank' href="https://behance.com" className="cs_center">Behance</a>
-                <a target='_blank' href="https://dribbble.com" className="cs_center">Dribbble</a>
-                <a target='_blank' href="https://github.com" className="cs_center">Github</a>
+                <a
+                  target="_blank"
+                  href="https://behance.com"
+                  className="cs_center"
+                >
+                  Behance
+                </a>
+                <a
+                  target="_blank"
+                  href="https://dribbble.com"
+                  className="cs_center"
+                >
+                  Dribbble
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com"
+                  className="cs_center"
+                >
+                  Github
+                </a>
               </div>
             </div>
           </div>
