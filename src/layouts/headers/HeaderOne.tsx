@@ -231,9 +231,9 @@ const HeaderOne = () => {
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
                 <Link className="cs_site_branding logo-dark" href="/">
-                  <p className="text-red-600 text-9xl bg-amber-50">
+                  {/* <p className="text-red-600 text-9xl bg-amber-50">
                     nycseoguru
-                  </p>
+                  </p> */}
                 </Link>
                 <Link className="cs_site_branding logo-white" href="/">
                   <Image src={Logo_white} alt="Logo" />
