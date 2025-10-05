@@ -1,16 +1,16 @@
-# vixan next js
+# nycseoguru next js
 
 - jamilrayhan100@gmail.com
 
 <details>
-<summary> vixan  </summary>
+<summary> nycseoguru  </summary>
 
--   [** vixan **](https://www.facebook.com/jamil.rayhan100)
+-   [** nycseoguru **](https://www.facebook.com/jamil.rayhan100)
 
-    -   vixan Next js
-    -   vixan HTML
-    -   vixan Wordpress
-    -   vixan PSD
-    -   vixan Figma
+    -   nycseoguru Next js
+    -   nycseoguru HTML
+    -   nycseoguru Wordpress
+    -   nycseoguru PSD
+    -   nycseoguru Figma
     
 </details>

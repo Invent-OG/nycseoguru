@@ -19,7 +19,7 @@ import Wrapper from "@/layouts/Wrapper";
 import VideoPopup from "@/components/modals/VideoPopup";
 
 // export const metadata = {
-//   title: "Vixan - Digital  Creative Agency Next js Template",
+//   title: "nycseoguru - Digital  Creative Agency Next js Template",
 // };
 
 const index = () => {

@@ -7,6 +7,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import logo from "@/assets/img/logo.svg";
 import Logo_white from "@/assets/img/Logo_white.png";
+import Logo from "@/assets/img/drawing.svg";
 
 interface DataType {
   id: number;
@@ -230,14 +231,13 @@ const HeaderOne = () => {
           <div className="container">
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
-                <Link className="cs_site_branding logo-dark" href="/">
-                  {/* <p className="text-red-600 text-9xl bg-amber-50">
-                    nycseoguru
-                  </p> */}
+                <Link className=" w-full h-full p-4" href="/">
+                  {/* <Image src={Logo} alt="Logo" height={100} width={100} /> */}
+                  Nycseoguru
                 </Link>
-                <Link className="cs_site_branding logo-white" href="/">
+                {/* <Link className="cs_site_branding logo-white" href="/">
                   <Image src={Logo_white} alt="Logo" />
-                </Link>
+                </Link> */}
               </div>
               <div className="cs_main_header_right">
                 <div className="cs_nav cs_medium">
@@ -255,7 +255,7 @@ const HeaderOne = () => {
                     <span></span>
                   </span>
                 </div>
-                <div className="cs_toolbox">
+                {/* <div className="cs_toolbox">
                   <span className="cs_icon_btn">
                     <span className="cs_icon_btn_in" onClick={handleActive}>
                       <span></span>
@@ -264,19 +264,19 @@ const HeaderOne = () => {
                       <span></span>
                     </span>
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
       </header>
 
-      <div className={`cs_side_header ${active ? "active" : ""}`}>
+      {/* <div className={`cs_side_header ${active ? "active" : ""}`}>
         <button className="cs_close" onClick={handleActive}></button>
         <div className="cs_side_header_overlay"></div>
         <div className="cs_side_header_in">
           <Link className="cs_site_branding" href="/">
-            <Image src={Logo_white} alt="Logo" />
+            Nycseoguru
           </Link>
           <div className="row align-items-end">
             <div className="col-7">
@@ -406,7 +406,7 @@ const HeaderOne = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
